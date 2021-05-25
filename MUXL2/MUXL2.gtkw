@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun May 23 01:39:59 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/ULTIMATE/MUXL2/muxl2.vcd"
+[dumpfile_mtime] "Sun May 23 01:37:39 2021"
+[dumpfile_size] 16955
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/ULTIMATE/MUXL2/MUXL2.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-3.425022 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS
+@28
+testbench.clk_4f
+@22
+testbench.data_00[7:0]
+testbench.data_11[7:0]
+@28
+testbench.valid_11
+testbench.valid_00
+@200
+-OUTPUTS
+@22
+[color] 7
+testbench.data_000_cond[7:0]
+@28
+[color] 7
+testbench.valid_000_cond
+@23
+[color] 5
+testbench.data_000_synt[7:0]
+@29
+[color] 5
+testbench.valid_000_synt
+[pattern_trace] 1
+[pattern_trace] 0

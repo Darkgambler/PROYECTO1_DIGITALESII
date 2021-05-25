@@ -1,0 +1,113 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue May 25 19:36:09 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/ULTIMATE/000LISTOS/DEMUX_RECIRCULACION/recirculacion.vcd"
+[dumpfile_mtime] "Tue May 25 19:32:43 2021"
+[dumpfile_size] 28366
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/ULTIMATE/000LISTOS/DEMUX_RECIRCULACION/RECIRCULACION.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-4.885674 20 60 36 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS
+@29
+testbech.PROB.clk_4f
+@28
+testbech.PROB.clk_2f
+testbech.PROB.clk_f
+@22
+testbech.data_0[7:0]
+testbech.data_1[7:0]
+testbech.data_2[7:0]
+testbech.data_3[7:0]
+@28
+testbech.PROB.valid_0
+testbech.PROB.valid_1
+testbech.PROB.valid_2
+testbech.PROB.valid_3
+testbech.IDLE_OUT
+@22
+testbech.PROB.data_0_n[7:0]
+@200
+-OUTPUTS
+@22
+[color] 7
+testbech.PROB.data_0_cond[7:0]
+[color] 7
+testbech.PROB.data_1_cond[7:0]
+[color] 7
+testbech.PROB.data_2_cond[7:0]
+[color] 7
+testbech.PROB.data_3_cond[7:0]
+@28
+[color] 7
+testbech.PROB.valid_0_cond
+[color] 7
+testbech.PROB.valid_1_cond
+[color] 7
+testbech.PROB.valid_2_cond
+[color] 7
+testbech.PROB.valid_3_cond
+@22
+[color] 7
+testbech.PROB.data_0r_cond[7:0]
+[color] 7
+testbech.PROB.data_1r_cond[7:0]
+[color] 7
+testbech.PROB.data_2r_cond[7:0]
+[color] 7
+testbech.PROB.data_3r_cond[7:0]
+@28
+[color] 7
+testbech.PROB.valid_0r_cond
+[color] 7
+testbech.PROB.valid_1r_cond
+[color] 7
+testbech.PROB.valid_2r_cond
+[color] 7
+testbech.PROB.valid_3r_cond
+@22
+[color] 5
+testbech.PROB.data_0_synt[7:0]
+[color] 5
+testbech.PROB.data_1_synt[7:0]
+[color] 5
+testbech.PROB.data_2_synt[7:0]
+[color] 5
+testbech.PROB.data_3_synt[7:0]
+@28
+[color] 5
+testbech.PROB.valid_0_synt
+[color] 5
+testbech.PROB.valid_1_synt
+[color] 5
+testbech.PROB.valid_2_synt
+[color] 5
+testbech.PROB.valid_3_synt
+@22
+[color] 5
+testbech.PROB.data_0r_synt[7:0]
+[color] 5
+testbech.PROB.data_1r_synt[7:0]
+[color] 5
+testbech.PROB.data_2r_synt[7:0]
+[color] 5
+testbech.PROB.data_3r_synt[7:0]
+@28
+[color] 5
+testbech.PROB.valid_0r_synt
+[color] 5
+testbech.PROB.valid_1r_synt
+[color] 5
+testbech.PROB.valid_2r_synt
+[color] 5
+testbech.PROB.valid_3r_synt
+[pattern_trace] 1
+[pattern_trace] 0
