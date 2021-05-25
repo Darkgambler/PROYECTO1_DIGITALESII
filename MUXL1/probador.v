@@ -72,6 +72,13 @@ module probador( output reg [7:0] data_0, data_1, data_2, data_3,
       data_2_n = $random;
       data_3_n = $random;
       {valid_0_n, valid_1_n, valid_2_n, valid_3_n} = 4'h0;
+      repeat( 8 ) begin	 
+	 #(4*N) data_0_n = $random;
+	 data_1_n = $random;
+	 data_2_n = $random;
+	 data_3_n = $random;
+	 {valid_0_n, valid_1_n, valid_2_n, valid_3_n} = $random;
+      end
       #(8*N) $finish;
    end // block: OUTPUTS_BEHAVIOR
 
