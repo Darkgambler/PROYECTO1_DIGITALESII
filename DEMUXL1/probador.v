@@ -83,6 +83,13 @@ module probador( output reg [7:0] data_00, data_11,
       data_11_n = $random;
       valid_00_n = 1'b0;
       valid_11_n = 1'b0;
+      repeat( 8 ) begin
+	 #N
+	 data_00_n = $random;
+	 data_11_n = $random;
+	 valid_00_n = $random;
+	 valid_11_n = $random;
+      end
       #(4*N) $finish;
    end // initial begin
 endmodule // probador
