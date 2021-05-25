@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Sun May 23 18:45:54 2021
+[*] Tue May 25 22:14:15 2021
 [*]
-[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/ULTIMATE/DEMUXL2/demuxl2.vcd"
-[dumpfile_mtime] "Sun May 23 18:44:45 2021"
-[dumpfile_size] 39247
-[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/ULTIMATE/DEMUXL2/DEMUXL2.gtkw"
-[timestart] 0
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/DEMUXL2/demuxl2.vcd"
+[dumpfile_mtime] "Tue May 25 22:13:02 2021"
+[dumpfile_size] 38300
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/DEMUXL2/DEMUXL2.gtkw"
+[timestart] 1
 [size] 1000 600
 [pos] -1 -1
-*-3.833719 30 10 14 34 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-4.352186 22 10 14 34 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] testbench.
 [sst_width] 233
 [signals_width] 195

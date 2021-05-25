@@ -83,6 +83,11 @@ module probador( output reg [7:0] data_000,
       #(2*N) 
       data_000_n = $random;
       valid_000_n = 1'b0;
+      repeat( 8 ) begin	 
+	 #(2*N) 
+	 data_000_n = $random;
+	 valid_000_n = $random;
+      end
       #(2*N) $finish;
    end // block: OUTPUTS_BEHAVIOR
 
