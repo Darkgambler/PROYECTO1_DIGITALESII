@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May 29 04:18:42 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/PARALELOSERIAL1/000paraleloserial1.vcd"
+[dumpfile_mtime] "Sat May 29 04:14:55 2021"
+[dumpfile_size] 45376
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/PARALELOSERIAL1/000PARALELOSERIAL1.gtkw"
+[timestart] 0
+[size] 1308 704
+[pos] -1 -1
+*-7.231043 24 40 104 88 72 56 120 136 152 168 184 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 233
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 180
+@200
+-OUTPUTS PROBADOR
+@28
+testbench.PROB.clk_4f
+testbench.PROB.clk_32f
+testbench.PROB.reset
+testbench.PS1_SYNT.reset_s
+@22
+testbench.PROB.data_000[7:0]
+@28
+testbench.PROB.valid_000
+@200
+-OUTPUTS PARSER1
+@22
+[color] 5
+testbench.PS1_COND.data2send[7:0]
+@28
+[color] 7
+testbench.PROB.data_out
+[color] 5
+testbench.PROB.data_out_synt
+[pattern_trace] 1
+[pattern_trace] 0
