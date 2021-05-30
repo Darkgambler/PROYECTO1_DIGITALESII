@@ -1,11 +1,11 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Thu May 27 09:34:26 2021
+[*] Tue May 25 22:18:15 2021
 [*]
-[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/MUXL1/muxl1.vcd"
-[dumpfile_mtime] "Thu May 27 09:31:20 2021"
-[dumpfile_size] 47426
-[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/MUXL1/MUXL1.gtkw"
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/MUXL1/muxl1.vcd"
+[dumpfile_mtime] "Tue May 25 22:17:20 2021"
+[dumpfile_size] 42002
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/MUXL1/MUXL1.gtkw"
 [timestart] 0
 [size] 1115 600
 [pos] -1 -1
@@ -15,13 +15,8 @@
 [signals_width] 166
 [sst_expanded] 1
 [sst_vpaned_height] 144
-@200
--INPUTS
 @28
 testbench.PROB.clk_2f
-testbench.COND.clk_f
-testbench.COND.reset
-testbench.COND.reset_s
 @22
 testbench.PROB.data_0[7:0]
 testbench.PROB.data_1[7:0]
@@ -32,25 +27,22 @@ testbench.PROB.valid_0
 testbench.PROB.valid_1
 testbench.PROB.valid_2
 testbench.PROB.valid_3
-@200
--OUTPUTS
 @22
 [color] 7
-testbench.COND.data_00[7:0]
+testbench.PROB.data_00_cond[7:0]
 [color] 7
-testbench.COND.data_11[7:0]
+testbench.PROB.data_11_cond[7:0]
 @28
 [color] 7
-testbench.COND.valid_00
+testbench.PROB.valid_00_cond
 [color] 7
-testbench.COND.valid_11
-@22
-[color] 5
-testbench.PROB.data_00_synt[7:0]
+testbench.PROB.valid_11_cond
 @23
 [color] 5
+testbench.PROB.data_00_synt[7:0]
+[color] 5
 testbench.PROB.data_11_synt[7:0]
-@28
+@29
 [color] 5
 testbench.PROB.valid_00_synt
 [color] 5
