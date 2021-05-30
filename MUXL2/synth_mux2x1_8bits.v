@@ -2,37 +2,50 @@
 
 (* top =  1  *)
 (* src = "synth_mux2x1_8bits.v:10" *)
-module synth_mux2x1_8bits(data_000_synt, valid_000_synt, data_00, data_11, valid_00, valid_11, clk_4f, clk_2f);
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  wire [8:0] _00_;
-  wire _01_;
-  wire _02_;
-  wire _03_;
-  wire _04_;
-  wire _05_;
-  wire _06_;
-  wire _07_;
-  wire _08_;
-  wire _09_;
-  wire _10_;
-  wire _11_;
-  wire _12_;
-  wire _13_;
-  wire _14_;
-  wire _15_;
-  wire _16_;
-  wire _17_;
-  wire _18_;
-  wire _19_;
-  wire _20_;
-  wire _21_;
-  wire _22_;
-  wire _23_;
-  wire _24_;
-  wire _25_;
-  wire _26_;
-  wire _27_;
-  wire _28_;
+module synth_mux2x1_8bits(data_000_synt, valid_000_synt, data_00, data_11, valid_00, valid_11, clk_4f, clk_2f, reset);
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  wire [7:0] _000_;
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  wire [8:0] _001_;
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  wire _002_;
+  wire _003_;
+  wire _004_;
+  wire _005_;
+  wire _006_;
+  wire _007_;
+  wire _008_;
+  wire _009_;
+  wire _010_;
+  wire _011_;
+  wire _012_;
+  wire _013_;
+  wire _014_;
+  wire _015_;
+  wire _016_;
+  wire _017_;
+  wire _018_;
+  wire _019_;
+  wire _020_;
+  wire _021_;
+  wire _022_;
+  wire _023_;
+  wire _024_;
+  wire _025_;
+  wire _026_;
+  wire _027_;
+  wire _028_;
+  wire _029_;
+  wire _030_;
+  wire _031_;
+  wire _032_;
+  wire _033_;
+  wire _034_;
+  wire _035_;
+  wire _036_;
+  wire _037_;
+  wire _038_;
+  wire _039_;
   (* src = "synth_mux2x1_8bits.v:14" *)
   input clk_2f;
   (* src = "synth_mux2x1_8bits.v:14" *)
@@ -49,294 +62,385 @@ module synth_mux2x1_8bits(data_000_synt, valid_000_synt, data_00, data_11, valid
   wire [8:0] paq_0_x;
   (* src = "synth_mux2x1_8bits.v:17" *)
   wire [8:0] paq_1_x;
+  (* src = "synth_mux2x1_8bits.v:14" *)
+  input reset;
+  (* src = "synth_mux2x1_8bits.v:19" *)
+  wire reset_s;
   (* src = "synth_mux2x1_8bits.v:13" *)
   input valid_00;
   (* src = "synth_mux2x1_8bits.v:11" *)
   output valid_000_synt;
   (* src = "synth_mux2x1_8bits.v:13" *)
   input valid_11;
-  NOT _29_ (
-    .A(clk_4f),
-    .Y(_09_)
-  );
-  NOT _30_ (
+  NOT _040_ (
     .A(clk_2f),
-    .Y(_10_)
+    .Y(_015_)
   );
-  NAND _31_ (
-    .A(data_00[0]),
+  NOT _041_ (
+    .A(clk_4f),
+    .Y(_003_)
+  );
+  NAND _042_ (
+    .A(paq_000[2]),
+    .B(reset_s),
+    .Y(_016_)
+  );
+  NOT _043_ (
+    .A(_016_),
+    .Y(_000_[1])
+  );
+  NAND _044_ (
+    .A(reset_s),
+    .B(paq_000[3]),
+    .Y(_017_)
+  );
+  NOT _045_ (
+    .A(_017_),
+    .Y(_000_[2])
+  );
+  NAND _046_ (
+    .A(reset_s),
+    .B(paq_000[4]),
+    .Y(_018_)
+  );
+  NOT _047_ (
+    .A(_018_),
+    .Y(_000_[3])
+  );
+  NAND _048_ (
+    .A(reset_s),
+    .B(paq_000[5]),
+    .Y(_019_)
+  );
+  NOT _049_ (
+    .A(_019_),
+    .Y(_000_[4])
+  );
+  NAND _050_ (
+    .A(reset_s),
+    .B(paq_000[6]),
+    .Y(_020_)
+  );
+  NOT _051_ (
+    .A(_020_),
+    .Y(_000_[5])
+  );
+  NAND _052_ (
+    .A(reset_s),
+    .B(paq_000[7]),
+    .Y(_021_)
+  );
+  NOT _053_ (
+    .A(_021_),
+    .Y(_000_[6])
+  );
+  NAND _054_ (
+    .A(reset_s),
+    .B(paq_000[8]),
+    .Y(_022_)
+  );
+  NOT _055_ (
+    .A(_022_),
+    .Y(_000_[7])
+  );
+  NAND _056_ (
+    .A(reset_s),
+    .B(paq_000[0]),
+    .Y(_023_)
+  );
+  NOT _057_ (
+    .A(_023_),
+    .Y(_002_)
+  );
+  NAND _058_ (
+    .A(valid_00),
     .B(clk_2f),
-    .Y(_11_)
+    .Y(_024_)
   );
-  NAND _32_ (
-    .A(data_11[0]),
-    .B(_10_),
-    .Y(_12_)
+  NAND _059_ (
+    .A(valid_11),
+    .B(_015_),
+    .Y(_025_)
   );
-  NAND _33_ (
-    .A(_11_),
-    .B(_12_),
-    .Y(_00_[1])
+  NAND _060_ (
+    .A(_024_),
+    .B(_025_),
+    .Y(_001_[0])
   );
-  NAND _34_ (
+  NAND _061_ (
+    .A(clk_2f),
+    .B(data_00[0]),
+    .Y(_026_)
+  );
+  NAND _062_ (
+    .A(_015_),
+    .B(data_11[0]),
+    .Y(_027_)
+  );
+  NAND _063_ (
+    .A(_026_),
+    .B(_027_),
+    .Y(_001_[1])
+  );
+  NAND _064_ (
     .A(clk_2f),
     .B(data_00[1]),
-    .Y(_13_)
+    .Y(_028_)
   );
-  NAND _35_ (
-    .A(_10_),
+  NAND _065_ (
+    .A(_015_),
     .B(data_11[1]),
-    .Y(_14_)
+    .Y(_029_)
   );
-  NAND _36_ (
-    .A(_13_),
-    .B(_14_),
-    .Y(_00_[2])
+  NAND _066_ (
+    .A(_028_),
+    .B(_029_),
+    .Y(_001_[2])
   );
-  NAND _37_ (
+  NAND _067_ (
     .A(clk_2f),
     .B(data_00[2]),
-    .Y(_15_)
+    .Y(_030_)
   );
-  NAND _38_ (
-    .A(_10_),
+  NAND _068_ (
+    .A(_015_),
     .B(data_11[2]),
-    .Y(_16_)
+    .Y(_031_)
   );
-  NAND _39_ (
-    .A(_15_),
-    .B(_16_),
-    .Y(_00_[3])
+  NAND _069_ (
+    .A(_030_),
+    .B(_031_),
+    .Y(_001_[3])
   );
-  NAND _40_ (
+  NAND _070_ (
     .A(clk_2f),
     .B(data_00[3]),
-    .Y(_17_)
+    .Y(_032_)
   );
-  NAND _41_ (
-    .A(_10_),
+  NAND _071_ (
+    .A(_015_),
     .B(data_11[3]),
-    .Y(_18_)
+    .Y(_033_)
   );
-  NAND _42_ (
-    .A(_17_),
-    .B(_18_),
-    .Y(_00_[4])
+  NAND _072_ (
+    .A(_032_),
+    .B(_033_),
+    .Y(_001_[4])
   );
-  NAND _43_ (
+  NAND _073_ (
     .A(clk_2f),
     .B(data_00[4]),
-    .Y(_19_)
+    .Y(_034_)
   );
-  NAND _44_ (
-    .A(_10_),
+  NAND _074_ (
+    .A(_015_),
     .B(data_11[4]),
-    .Y(_20_)
+    .Y(_035_)
   );
-  NAND _45_ (
-    .A(_19_),
-    .B(_20_),
-    .Y(_00_[5])
+  NAND _075_ (
+    .A(_034_),
+    .B(_035_),
+    .Y(_001_[5])
   );
-  NAND _46_ (
+  NAND _076_ (
     .A(clk_2f),
     .B(data_00[5]),
-    .Y(_21_)
+    .Y(_036_)
   );
-  NAND _47_ (
-    .A(_10_),
+  NAND _077_ (
+    .A(_015_),
     .B(data_11[5]),
-    .Y(_22_)
+    .Y(_037_)
   );
-  NAND _48_ (
-    .A(_21_),
-    .B(_22_),
-    .Y(_00_[6])
+  NAND _078_ (
+    .A(_036_),
+    .B(_037_),
+    .Y(_001_[6])
   );
-  NAND _49_ (
+  NAND _079_ (
     .A(clk_2f),
     .B(data_00[6]),
-    .Y(_23_)
+    .Y(_038_)
   );
-  NAND _50_ (
-    .A(_10_),
+  NAND _080_ (
+    .A(_015_),
     .B(data_11[6]),
-    .Y(_24_)
+    .Y(_039_)
   );
-  NAND _51_ (
-    .A(_23_),
-    .B(_24_),
-    .Y(_00_[7])
+  NAND _081_ (
+    .A(_038_),
+    .B(_039_),
+    .Y(_001_[7])
   );
-  NAND _52_ (
+  NAND _082_ (
     .A(clk_2f),
     .B(data_00[7]),
-    .Y(_25_)
+    .Y(_012_)
   );
-  NAND _53_ (
-    .A(_10_),
+  NAND _083_ (
+    .A(_015_),
     .B(data_11[7]),
-    .Y(_26_)
+    .Y(_013_)
   );
-  NAND _54_ (
-    .A(_25_),
-    .B(_26_),
-    .Y(_00_[8])
+  NAND _084_ (
+    .A(_012_),
+    .B(_013_),
+    .Y(_001_[8])
   );
-  NAND _55_ (
-    .A(clk_2f),
-    .B(valid_00),
-    .Y(_27_)
+  NAND _085_ (
+    .A(reset_s),
+    .B(paq_000[1]),
+    .Y(_014_)
   );
-  NAND _56_ (
-    .A(_10_),
-    .B(valid_11),
-    .Y(_28_)
+  NOT _086_ (
+    .A(_014_),
+    .Y(_000_[0])
   );
-  NAND _57_ (
-    .A(_27_),
-    .B(_28_),
-    .Y(_00_[0])
-  );
-  NOT _58_ (
+  NOT _087_ (
     .A(clk_4f),
-    .Y(_01_)
+    .Y(_004_)
   );
-  NOT _59_ (
+  NOT _088_ (
     .A(clk_4f),
-    .Y(_02_)
+    .Y(_005_)
   );
-  NOT _60_ (
+  NOT _089_ (
     .A(clk_4f),
-    .Y(_03_)
+    .Y(_006_)
   );
-  NOT _61_ (
+  NOT _090_ (
     .A(clk_4f),
-    .Y(_04_)
+    .Y(_007_)
   );
-  NOT _62_ (
+  NOT _091_ (
     .A(clk_4f),
-    .Y(_05_)
+    .Y(_008_)
   );
-  NOT _63_ (
+  NOT _092_ (
     .A(clk_4f),
-    .Y(_06_)
+    .Y(_009_)
   );
-  NOT _64_ (
+  NOT _093_ (
     .A(clk_4f),
-    .Y(_07_)
+    .Y(_010_)
   );
-  NOT _65_ (
+  NOT _094_ (
     .A(clk_4f),
-    .Y(_08_)
+    .Y(_011_)
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _66_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _095_ (
     .C(clk_4f),
-    .D(paq_000[1]),
+    .D(_000_[0]),
     .Q(data_000_synt[0])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _67_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _096_ (
     .C(clk_4f),
-    .D(paq_000[2]),
+    .D(_000_[1]),
     .Q(data_000_synt[1])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _68_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _097_ (
     .C(clk_4f),
-    .D(paq_000[3]),
+    .D(_000_[2]),
     .Q(data_000_synt[2])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _69_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _098_ (
     .C(clk_4f),
-    .D(paq_000[4]),
+    .D(_000_[3]),
     .Q(data_000_synt[3])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _70_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _099_ (
     .C(clk_4f),
-    .D(paq_000[5]),
+    .D(_000_[4]),
     .Q(data_000_synt[4])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _71_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _100_ (
     .C(clk_4f),
-    .D(paq_000[6]),
+    .D(_000_[5]),
     .Q(data_000_synt[5])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _72_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _101_ (
     .C(clk_4f),
-    .D(paq_000[7]),
+    .D(_000_[6]),
     .Q(data_000_synt[6])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _73_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _102_ (
     .C(clk_4f),
-    .D(paq_000[8]),
+    .D(_000_[7]),
     .Q(data_000_synt[7])
   );
-  (* src = "synth_mux2x1_8bits.v:35" *)
-  DFF _74_ (
+  (* src = "synth_mux2x1_8bits.v:40" *)
+  DFF _103_ (
     .C(clk_4f),
-    .D(paq_000[0]),
+    .D(_002_),
     .Q(valid_000_synt)
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _75_ (
-    .C(_01_),
-    .D(_00_[0]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _104_ (
+    .C(_003_),
+    .D(_001_[0]),
     .Q(paq_000[0])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _76_ (
-    .C(_02_),
-    .D(_00_[1]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _105_ (
+    .C(_004_),
+    .D(_001_[1]),
     .Q(paq_000[1])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _77_ (
-    .C(_03_),
-    .D(_00_[2]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _106_ (
+    .C(_005_),
+    .D(_001_[2]),
     .Q(paq_000[2])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _78_ (
-    .C(_04_),
-    .D(_00_[3]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _107_ (
+    .C(_006_),
+    .D(_001_[3]),
     .Q(paq_000[3])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _79_ (
-    .C(_05_),
-    .D(_00_[4]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _108_ (
+    .C(_007_),
+    .D(_001_[4]),
     .Q(paq_000[4])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _80_ (
-    .C(_06_),
-    .D(_00_[5]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _109_ (
+    .C(_008_),
+    .D(_001_[5]),
     .Q(paq_000[5])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _81_ (
-    .C(_07_),
-    .D(_00_[6]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _110_ (
+    .C(_009_),
+    .D(_001_[6]),
     .Q(paq_000[6])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _82_ (
-    .C(_08_),
-    .D(_00_[7]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _111_ (
+    .C(_010_),
+    .D(_001_[7]),
     .Q(paq_000[7])
   );
-  (* src = "synth_mux2x1_8bits.v:26" *)
-  DFF _83_ (
-    .C(_09_),
-    .D(_00_[8]),
+  (* src = "synth_mux2x1_8bits.v:31" *)
+  DFF _112_ (
+    .C(_011_),
+    .D(_001_[8]),
     .Q(paq_000[8])
+  );
+  (* src = "synth_mux2x1_8bits.v:23" *)
+  DFF _113_ (
+    .C(clk_4f),
+    .D(reset),
+    .Q(reset_s)
   );
   assign paq_0_x = { data_00, valid_00 };
   assign paq_1_x = { data_11, valid_11 };

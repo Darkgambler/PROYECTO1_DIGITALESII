@@ -1,12 +1,12 @@
 module probador( output reg [7:0] data_00, data_11,
 		 output reg 	  valid_00, valid_11,
-		 output reg 	  clk_4f, clk_2f,
+		 output reg 	  clk_4f, clk_2f, reset,
 		 input wire [7:0] data_000_synt, data_000_cond,
 		 input wire 	  valid_000_synt, valid_000_cond );
 
 
    reg [7:0] 			  data_00_n, data_11_n;
-   reg 				  valid_00_n, valid_11_n;
+   reg 				  valid_00_n, valid_11_n, reset_n;
    
    parameter 			  N = 1;
    
@@ -33,17 +33,17 @@ module probador( output reg [7:0] data_00, data_11,
       data_11 <= data_11_n;
       valid_00 <= valid_00_n;
       valid_11 <= valid_11_n;
+      reset <= reset_n;
    end
    
 
    initial begin: OUTPUTS_BEHAVIOR
-      repeat( 2 ) begin
-	 #(4*N)
-	 data_00_n = 8'h1f;
-	 data_11_n = 8'h5e;
-	 {valid_00_n, valid_11_n} = 2'b00;
-      end
-      #(4*N) 
+      reset_n = 1'b0;
+      data_00_n = 8'h00;
+      data_11_n = 8'h00;
+      {valid_00_n, valid_11_n} = 2'b00;   
+      #(10*N)
+      reset_n = 1'b1;
       data_00_n = 8'hff;
       data_11_n = 8'hdd;
       {valid_00_n, valid_11_n} = 2'b11;

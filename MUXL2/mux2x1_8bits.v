@@ -11,13 +11,18 @@ module mux2x1_8bits( output reg [7:0] data_000_cond,
 		     output reg       valid_000_cond,
 		     input wire [7:0] data_00, data_11,
 		     input wire       valid_00, valid_11,
-		     input wire clk_4f, clk_2f );
+		     input wire clk_4f, clk_2f, reset );
 
    wire [8:0] 			paq_0_x;
    wire [8:0] 			paq_1_x;
    reg [8:0] 			paq_000;
+   reg 				reset_s;
    
    
+   
+   always @( posedge clk_4f ) begin
+      reset_s <= reset;
+   end
    
 
    assign paq_0_x = {data_00,valid_00};
@@ -33,7 +38,12 @@ module mux2x1_8bits( output reg [7:0] data_000_cond,
    end // always @ ( negedge clk_2f )
 
    always @( posedge clk_4f ) begin
-      {data_000_cond,valid_000_cond} <= paq_000;
+      if( reset_s ) begin
+	 {data_000_cond,valid_000_cond} <= paq_000;
+      end
+      else begin
+	 {data_000_cond,valid_000_cond} <= 9'b0;
+      end
    end  
  
 endmodule // mux4x2_8bits

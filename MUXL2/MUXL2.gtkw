@@ -1,15 +1,16 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Tue May 25 22:20:52 2021
+[*] Wed May 26 05:53:45 2021
 [*]
-[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/MUXL2/muxl2.vcd"
-[dumpfile_mtime] "Tue May 25 22:19:52 2021"
-[dumpfile_size] 22055
-[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/MUXL2/MUXL2.gtkw"
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/MUXL2/muxl2.vcd"
+[dumpfile_mtime] "Wed May 26 05:53:28 2021"
+[dumpfile_size] 25293
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/MUXL2/MUXL2.gtkw"
 [timestart] 0
 [size] 1174 600
 [pos] -1 -1
-*-4.353900 12 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-4.353900 31 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
 [sst_width] 233
 [signals_width] 174
 [sst_expanded] 1
@@ -18,8 +19,9 @@
 -INPUTS
 @28
 testbench.clk_4f
-@29
 testbench.clk_2f
+@29
+testbench.PROB.reset
 @22
 testbench.data_00[7:0]
 testbench.data_11[7:0]
