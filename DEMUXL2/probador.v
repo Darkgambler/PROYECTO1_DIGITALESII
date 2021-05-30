@@ -1,13 +1,13 @@
-module probador( output reg [7:0] data_000,
-		 output reg 	  valid_000, clk_4f, clk_2f,
-		 input wire [7:0] data_00_synt, data_00_cond,
-		 input wire [7:0] data_11_synt, data_11_cond,
-		 input wire 	  valid_00_synt, valid_00_cond,
-		 input wire 	  valid_11_synt, valid_11_cond );
+module probador( output reg [7:0] data_rx000,
+		 output reg 	  valid_rx000, clk_4f, clk_2f, reset,
+		 input wire [7:0] data_rx00_synt, data_rx00,
+		 input wire [7:0] data_rx11_synt, data_rx11,
+		 input wire 	  valid_rx00_synt, valid_rx00,
+		 input wire 	  valid_rx11_synt, valid_rx11 );
 
 
-   reg [7:0] 			  data_000_n;
-   reg 				  valid_000_n;
+   reg [7:0] 			  data_rx000_n;
+   reg 				  valid_rx000_n;
    
    parameter 			  N = 1;
    
@@ -33,60 +33,59 @@ module probador( output reg [7:0] data_000,
    end
 
    always @( posedge clk_4f ) begin
-      data_000 <= data_000_n;
-      valid_000 <= valid_000_n;
+      data_rx000 <= data_rx000_n;
+      valid_rx000 <= valid_rx000_n;
    end
    
 
    initial begin: OUTPUTS_BEHAVIOR
-      repeat( 4 ) begin
-	 #2
-	 data_000_n = $random;
-	 valid_000_n = 1'b0;
-      end
+      data_rx000_n = $random;
+      valid_rx000_n = 1'b0;
+      reset = 1'b0;
+      #13
+      reset = 1'b1;
+      data_rx000_n = 8'hff;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'hff;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'hdd;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'hdd;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'hee;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'hee;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'hcc;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'hcc;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'hbb;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'hbb;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'h99;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'h99;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'haa;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'haa;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'h88;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'h88;
-      valid_000_n = 1'b1;
+      data_rx000_n = 8'h55;
+      valid_rx000_n = 1'b0;
       #(2*N) 
-      data_000_n = 8'h55;
-      valid_000_n = 1'b0;
+      data_rx000_n = 8'h77;
+      valid_rx000_n = 1'b1;
       #(2*N) 
-      data_000_n = 8'h77;
-      valid_000_n = 1'b1;
+      data_rx000_n = $random;
+      valid_rx000_n = 1'b0;
       #(2*N) 
-      data_000_n = $random;
-      valid_000_n = 1'b0;
+      data_rx000_n = $random;
+      valid_rx000_n = 1'b0;
       #(2*N) 
-      data_000_n = $random;
-      valid_000_n = 1'b0;
-      #(2*N) 
-      data_000_n = $random;
-      valid_000_n = 1'b0;
+      data_rx000_n = $random;
+      valid_rx000_n = 1'b0;
       repeat( 8 ) begin	 
 	 #(2*N) 
-	 data_000_n = $random;
-	 valid_000_n = $random;
+	 data_rx000_n = $random;
+	 valid_rx000_n = $random;
       end
       #(2*N) $finish;
    end // block: OUTPUTS_BEHAVIOR

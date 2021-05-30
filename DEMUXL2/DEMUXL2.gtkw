@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
-[*] Tue May 25 22:14:15 2021
+[*] Sun May 30 04:48:18 2021
 [*]
-[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/DEMUXL2/demuxl2.vcd"
-[dumpfile_mtime] "Tue May 25 22:13:02 2021"
-[dumpfile_size] 38300
-[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/DEMUXL2/DEMUXL2.gtkw"
-[timestart] 1
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/DEMUXL2/demuxl2.vcd"
+[dumpfile_mtime] "Sun May 30 04:46:30 2021"
+[dumpfile_size] 53535
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/DEMUXL2/DEMUXL2.gtkw"
+[timestart] 0
 [size] 1000 600
 [pos] -1 -1
-*-4.352186 22 10 14 34 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-4.379153 43 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] testbench.
 [sst_width] 233
 [signals_width] 195
@@ -19,33 +19,33 @@
 -INPUTS
 @28
 testbench.PROB.clk_4f
-testbench.PROB.clk_2f
+testbench.COND.clk_2f
+testbench.COND.reset
 @22
-testbench.PROB.data_000[7:0]
+testbench.PROB.data_rx000[7:0]
 @28
-testbench.PROB.valid_000
+testbench.PROB.valid_rx000
 @200
 -OUTPUTS
 @22
 [color] 7
-testbench.PROB.data_00_synt[7:0]
+testbench.PROB.data_rx00[7:0]
 [color] 7
-testbench.PROB.data_11_synt[7:0]
+testbench.PROB.data_rx11[7:0]
 @28
 [color] 7
-testbench.PROB.valid_00_synt
+testbench.PROB.valid_rx00
 [color] 7
-testbench.PROB.valid_11_synt
+testbench.PROB.valid_rx11
 @22
 [color] 5
-testbench.PROB.data_00_cond[7:0]
-@23
+testbench.PROB.data_rx00_synt[7:0]
 [color] 5
-testbench.PROB.data_11_cond[7:0]
+testbench.PROB.data_rx11_synt[7:0]
 @28
 [color] 5
-testbench.PROB.valid_00_cond
+testbench.PROB.valid_rx00_synt
 [color] 5
-testbench.PROB.valid_11_cond
+testbench.PROB.valid_rx11_synt
 [pattern_trace] 1
 [pattern_trace] 0

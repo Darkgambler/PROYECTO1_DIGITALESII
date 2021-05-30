@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri May 28 04:31:48 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/DEMUX_RECIRCULACION_SINCRONICO/DEMUX_RECIRCULACION_FINALv3/000recirculacion_sincronico.vcd"
+[dumpfile_mtime] "Fri May 28 04:25:15 2021"
+[dumpfile_size] 47849
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/DEMUX_RECIRCULACION_SINCRONICO/DEMUX_RECIRCULACION_FINALv3/000RECIRCULACION.gtkw"
+[timestart] 4
+[size] 1000 600
+[pos] -1 -1
+*-4.670823 62 36 60 24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[sst_width] 233
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+testbech.COND.clk_f
+testbech.COND.IDLE_OUT
+@29
+testbech.SYNT.IDLE_OUT_synt
+@22
+testbech.PROB.data_0p[7:0]
+testbech.PROB.data_1p[7:0]
+testbech.PROB.data_2p[7:0]
+testbech.PROB.data_3p[7:0]
+[color] 5
+testbech.COND.data_0[7:0]
+[color] 5
+testbech.COND.data_1[7:0]
+[color] 5
+testbech.COND.data_2[7:0]
+[color] 5
+testbech.COND.data_3[7:0]
+@28
+[color] 5
+testbech.COND.valid_0
+[color] 5
+testbech.COND.valid_1
+[color] 5
+testbech.COND.valid_2
+[color] 5
+testbech.COND.valid_3
+@22
+[color] 7
+testbech.SYNT.data_0_synt[7:0]
+[color] 7
+testbech.SYNT.data_1_synt[7:0]
+[color] 7
+testbech.SYNT.data_2_synt[7:0]
+[color] 7
+testbech.SYNT.data_3_synt[7:0]
+@28
+[color] 7
+testbech.SYNT.valid_0_synt
+[color] 7
+testbech.SYNT.valid_1_synt
+[color] 7
+testbech.SYNT.valid_2_synt
+[color] 7
+testbech.SYNT.valid_3_synt
+[pattern_trace] 1
+[pattern_trace] 0
