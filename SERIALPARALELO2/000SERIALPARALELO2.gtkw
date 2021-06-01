@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun  1 04:33:13 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/SERIALPARALELO2/000serialparalelo2.vcd"
+[dumpfile_mtime] "Tue Jun  1 04:17:41 2021"
+[dumpfile_size] 53969
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/VERSION2/SERIALPARALELO2/000SERIALPARALELO2.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 202 114
+*-6.996158 55 128 272 144 256 288 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 233
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS
+@28
+testbench.clk_32f
+testbench.clk_4f
+testbench.clk_f
+testbench.reset
+testbench.inserter
+@200
+-INTERMEDIO
+@24
+[color] 2
+testbench.SP2_COND.BC_counter[2:0]
+@22
+[color] 2
+testbench.SP2_COND.container[7:0]
+@28
+[color] 2
+testbench.SP2_COND.BC_counter4
+@29
+[color] 2
+testbench.SP2_COND.idle_in
+@28
+[color] 2
+testbench.SP2_COND.IDLE_OUT_N
+@200
+-OUTPUTS
+@28
+[color] 7
+testbench.IDLE_OUT
+[color] 5
+testbench.IDLE_OUT_synt
+[pattern_trace] 1
+[pattern_trace] 0
