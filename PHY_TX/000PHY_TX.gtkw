@@ -1,0 +1,75 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun  8 06:15:27 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/phy_tx/000ptx.vcd"
+[dumpfile_mtime] "Tue Jun  8 06:09:12 2021"
+[dumpfile_size] 471072
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/phy_tx/000PTX.gtkw"
+[timestart] 112
+[size] 1182 600
+[pos] -1 -1
+*-6.847744 280 256 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.PTX_COND.
+[treeopen] testbech.PTX_SYNT.
+[sst_width] 233
+[signals_width] 201
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-OUTPUTS PROBADOR
+@28
+testbech.clk_4f
+testbech.PROB.clk_f
+testbech.clk_32f
+testbech.reset
+@22
+testbech.PROB.data_0p[7:0]
+testbech.PROB.data_1p[7:0]
+testbech.PROB.data_2p[7:0]
+testbech.PROB.data_3p[7:0]
+@28
+testbech.PROB.valid_0p
+testbech.PROB.valid_1p
+testbech.PROB.valid_2p
+testbech.PROB.valid_3p
+@200
+-OUTPUTS INTERMEDIOS
+@22
+[color] 2
+testbech.PTX_COND.data_0[7:0]
+[color] 2
+testbech.PTX_COND.data_1[7:0]
+[color] 2
+testbech.PTX_COND.data_2[7:0]
+[color] 2
+testbech.PTX_COND.data_3[7:0]
+[color] 2
+testbech.PTX_COND.data_00[7:0]
+[color] 2
+testbech.PTX_COND.data_11[7:0]
+[color] 2
+testbech.PTX_COND.data_000[7:0]
+@28
+[color] 2
+testbech.PTX_COND.valid_000
+[color] 2
+testbech.PTX_COND.PARSER1_COND.reset_s
+@29
+[color] 2
+testbech.PTX_SYNT.SERPAR2_COND.IDLE_OUT_synt
+[color] 2
+testbech.PTX_COND.SERPAR2_COND.IDLE_OUT
+@200
+-OUTPUTS PTX
+@22
+[color] 1
+testbech.PTX_COND.PARSER1_COND.data2send[7:0]
+@28
+[color] 7
+testbech.data_out
+[color] 5
+testbech.PROB.data_out_synt
+[pattern_trace] 1
+[pattern_trace] 0
