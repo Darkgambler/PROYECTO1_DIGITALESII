@@ -1,0 +1,69 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun  8 08:43:13 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/PHY/000phy.vcd"
+[dumpfile_mtime] "Tue Jun  8 08:34:12 2021"
+[dumpfile_size] 986849
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/PROYECTO1_DIGITALESII/PHY/000PHY.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-9.012489 544 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[sst_width] 233
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-OUTPUTS PROBADOR
+@22
+testbech.PROB.data_0p[7:0]
+testbech.PROB.data_1p[7:0]
+testbech.PROB.data_2p[7:0]
+testbech.PROB.data_3p[7:0]
+@28
+testbech.PROB.valid_0p
+testbech.PROB.valid_1p
+testbech.PROB.valid_2p
+testbech.PROB.valid_3p
+@201
+-OUTPUTS PHY
+@22
+[color] 7
+testbech.PROB.data_rx0[7:0]
+[color] 7
+testbech.PROB.data_rx1[7:0]
+[color] 7
+testbech.PROB.data_rx2[7:0]
+[color] 7
+testbech.PROB.data_rx3[7:0]
+@28
+[color] 7
+testbech.PROB.valid_rx0
+[color] 7
+testbech.PROB.valid_rx1
+[color] 7
+testbech.PROB.valid_rx2
+[color] 7
+testbech.PROB.valid_rx3
+@22
+[color] 5
+testbech.PROB.data_rx0_synt[7:0]
+[color] 5
+testbech.PROB.data_rx1_synt[7:0]
+[color] 5
+testbech.PROB.data_rx2_synt[7:0]
+[color] 5
+testbech.PROB.data_rx3_synt[7:0]
+@28
+[color] 5
+testbech.PROB.valid_rx0_synt
+[color] 5
+testbech.PROB.valid_rx1_synt
+[color] 5
+testbech.PROB.valid_rx2_synt
+[color] 5
+testbech.PROB.valid_rx3_synt
+[pattern_trace] 1
+[pattern_trace] 0
