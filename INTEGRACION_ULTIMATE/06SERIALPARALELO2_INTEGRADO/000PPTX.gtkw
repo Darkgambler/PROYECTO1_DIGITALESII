@@ -1,0 +1,76 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May 29 23:04:35 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/06SERIALPARALELO2_INTEGRADO/000pptx.vcd"
+[dumpfile_mtime] "Sat May 29 21:36:46 2021"
+[dumpfile_size] 747621
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/06SERIALPARALELO2_INTEGRADO/000PPTX.gtkw"
+[timestart] 0
+[size] 1146 600
+[pos] -1 -1
+*-6.957145 255 160 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.PPTX_COND.
+[sst_width] 233
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-OUTPUTS PROBADOR
+@28
+testbech.PROB.clk_f
+testbech.PROB.clk_2f
+testbech.PROB.clk_4f
+testbech.PROB.clk_32f
+[color] 1
+testbech.PROB.reset
+@22
+testbech.PROB.data_0p[7:0]
+testbech.PROB.data_1p[7:0]
+testbech.PROB.data_2p[7:0]
+testbech.PROB.data_3p[7:0]
+testbech.PPTX_COND.RECIRCULACION_COND.data_0rp[7:0]
+testbech.PPTX_COND.RECIRCULACION_COND.data_1rp[7:0]
+testbech.PPTX_COND.RECIRCULACION_COND.data_2rp[7:0]
+testbech.PPTX_COND.RECIRCULACION_COND.data_3rp[7:0]
+@200
+-OUTPUTS FLOPS1
+@22
+testbech.PPTX_COND.FLOPS2_COND.data_0[7:0]
+testbech.PPTX_COND.FLOPS2_COND.data_1[7:0]
+testbech.PPTX_COND.FLOPS2_COND.data_2[7:0]
+testbech.PPTX_COND.FLOPS2_COND.data_3[7:0]
+@28
+testbech.PPTX_COND.FLOPS2_COND.valid_0
+testbech.PPTX_COND.FLOPS2_COND.valid_1
+testbech.PPTX_COND.FLOPS2_COND.valid_2
+@29
+testbech.PPTX_COND.FLOPS2_COND.valid_3
+@200
+-OUTPUTS SERPAR2
+@28
+testbech.PPTX_COND.SERPAR2_COND.inserter
+testbech.PPTX_COND.SERPAR2_COND.reset_s
+testbech.PPTX_COND.active
+@200
+-OUTPUTS PPTX
+@28
+[color] 7
+testbech.PROB.IDLE_OUT
+@22
+[color] 7
+testbech.PROB.data_rx000[7:0]
+@28
+[color] 7
+testbech.PROB.valid_rx000
+[color] 5
+testbech.PROB.IDLE_OUT_synt
+@22
+[color] 5
+testbech.PROB.data_rx000_synt[7:0]
+@28
+[color] 5
+testbech.PROB.valid_rx000_synt
+[pattern_trace] 1
+[pattern_trace] 0

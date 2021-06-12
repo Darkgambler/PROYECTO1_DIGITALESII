@@ -1,0 +1,75 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May 29 07:53:25 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/SERIALPARALELO1_INTEGRADO/000prx.vcd"
+[dumpfile_mtime] "Sat May 29 07:44:40 2021"
+[dumpfile_size] 460861
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/SERIALPARALELO1_INTEGRADO/000PRX.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 139 521
+*-5.935137 172 192 208 336 352 368 384 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.PRX_COND.
+[sst_width] 233
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS PRX
+@28
+testbech.PRX_COND.reset
+testbech.PROB.clk_4f
+testbech.PROB.clk_32f
+testbech.PRX_COND.SERPAR1_COND.data_out
+@200
+-SIGNALS INTERMEDIAS
+@23
+[color] 2
+testbech.PRX_COND.PARSER1_COND.data2send[7:0]
+@25
+[color] 2
+testbech.PRX_COND.SERPAR1_COND.BC_counter[2:0]
+@200
+-OUTPUTS PRX
+@c00022
+[color] 7
+testbech.PROB.data_rx000[7:0]
+@28
+(0)testbech.PROB.data_rx000[7:0]
+(1)testbech.PROB.data_rx000[7:0]
+(2)testbech.PROB.data_rx000[7:0]
+(3)testbech.PROB.data_rx000[7:0]
+(4)testbech.PROB.data_rx000[7:0]
+(5)testbech.PROB.data_rx000[7:0]
+(6)testbech.PROB.data_rx000[7:0]
+(7)testbech.PROB.data_rx000[7:0]
+@1401200
+-group_end
+@28
+[color] 7
+testbech.PROB.valid_rx000
+[color] 7
+testbech.PROB.active
+@c00022
+[color] 5
+testbech.PROB.data_rx000_synt[7:0]
+@28
+(0)testbech.PROB.data_rx000_synt[7:0]
+(1)testbech.PROB.data_rx000_synt[7:0]
+(2)testbech.PROB.data_rx000_synt[7:0]
+(3)testbech.PROB.data_rx000_synt[7:0]
+(4)testbech.PROB.data_rx000_synt[7:0]
+(5)testbech.PROB.data_rx000_synt[7:0]
+(6)testbech.PROB.data_rx000_synt[7:0]
+(7)testbech.PROB.data_rx000_synt[7:0]
+@1401200
+-group_end
+@28
+[color] 5
+testbech.PROB.valid_rx000_synt
+[color] 5
+testbech.PROB.active_synt
+[pattern_trace] 1
+[pattern_trace] 0

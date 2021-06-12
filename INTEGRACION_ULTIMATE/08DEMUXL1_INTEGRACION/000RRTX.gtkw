@@ -1,0 +1,75 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun May 30 05:57:28 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/08DEMUXL1_INTEGRACION/000rrtx.vcd"
+[dumpfile_mtime] "Sun May 30 05:56:50 2021"
+[dumpfile_size] 980673
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/08DEMUXL1_INTEGRACION/000RRTX.gtkw"
+[timestart] 0
+[size] 1255 600
+[pos] -1 -1
+*-8.594947 288 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.PROB.
+[treeopen] testbech.RRTX_COND.
+[sst_width] 233
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS
+@28
+testbech.PROB.clk_f
+@29
+testbech.PROB.reset
+@22
+testbech.RRTX_COND.FLOPS2_COND.data_0[7:0]
+testbech.RRTX_COND.FLOPS2_COND.data_1[7:0]
+testbech.RRTX_COND.FLOPS2_COND.data_2[7:0]
+testbech.RRTX_COND.FLOPS2_COND.data_3[7:0]
+@28
+testbech.RRTX_COND.FLOPS2_COND.valid_0
+testbech.RRTX_COND.FLOPS2_COND.valid_1
+testbech.RRTX_COND.FLOPS2_COND.valid_2
+testbech.RRTX_COND.FLOPS2_COND.valid_3
+@200
+-OUTPUTS
+@22
+[color] 7
+testbech.PROB.data_rx0[7:0]
+[color] 7
+testbech.PROB.data_rx1[7:0]
+[color] 7
+testbech.PROB.data_rx2[7:0]
+[color] 7
+testbech.PROB.data_rx3[7:0]
+@28
+[color] 7
+testbech.PROB.valid_rx0
+[color] 7
+testbech.PROB.valid_rx1
+[color] 7
+testbech.PROB.valid_rx2
+[color] 7
+testbech.PROB.valid_rx3
+@22
+[color] 5
+testbech.PROB.data_rx0_synt[7:0]
+[color] 5
+testbech.PROB.data_rx1_synt[7:0]
+[color] 5
+testbech.PROB.data_rx2_synt[7:0]
+[color] 5
+testbech.PROB.data_rx3_synt[7:0]
+@28
+[color] 5
+testbech.PROB.valid_rx0_synt
+[color] 5
+testbech.PROB.valid_rx1_synt
+[color] 5
+testbech.PROB.valid_rx2_synt
+[color] 5
+testbech.PROB.valid_rx3_synt
+[pattern_trace] 1
+[pattern_trace] 0

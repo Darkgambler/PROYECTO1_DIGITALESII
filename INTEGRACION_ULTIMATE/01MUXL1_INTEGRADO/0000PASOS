@@ -1,0 +1,11 @@
+1. primero se crea el modulo integrador y se prueba sin la sintesis
+2. se sintetiza con yosys y los valores de los nombres se cambian
+utilizando y variando si es el caso el script4.sh
+3. se cambia el W.v o X.v .... para integrar el nuevo componente
+luego se edita el probador de forma parecida cambiando las entradas
+de retorno por las nuevas correspondientes a las salidas del modulo
+nuevo y su sintesis, luego se edita el testbench que es realmente facil
+SOLO CAMBIAR W POR X O POR LA LETRA QUE ESCOJAMOS Y AUTOINST.
+
+la edicion del script fue bastante sencilla solo agregar a la lista normal el nuevo modulo mux4x2_8bits ya que tiene salidas con 00
+el orden debe ser siempre 000 -- 00 -- 0

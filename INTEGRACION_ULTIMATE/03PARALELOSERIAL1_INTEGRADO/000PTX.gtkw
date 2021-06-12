@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May 29 04:21:51 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/PARALELOSERIAL1_INTEGRADO/000ptx.vcd"
+[dumpfile_mtime] "Sat May 29 03:45:41 2021"
+[dumpfile_size] 284801
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/PARALELOSERIAL1_INTEGRADO/000PTX.gtkw"
+[timestart] 100
+[size] 1182 600
+[pos] -1 -1
+*-6.788888 257 192 320 336 352 368 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.PTX_SYNT.
+[sst_width] 233
+[signals_width] 201
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-OUTPUTS PROBADOR
+@28
+testbech.clk_4f
+testbech.clk_32f
+@29
+testbech.reset
+@200
+-OUTPUTS INTERMEDIOS
+@22
+[color] 2
+testbech.PTX_COND.data_0[7:0]
+[color] 2
+testbech.PTX_COND.data_1[7:0]
+[color] 2
+testbech.PTX_COND.data_2[7:0]
+[color] 2
+testbech.PTX_COND.data_3[7:0]
+[color] 2
+testbech.PTX_COND.data_00[7:0]
+[color] 2
+testbech.PTX_COND.data_11[7:0]
+[color] 2
+testbech.PTX_COND.data_000[7:0]
+@28
+[color] 2
+testbech.PTX_COND.valid_000
+[color] 2
+testbech.PTX_COND.PARSER1_COND.reset_s
+@200
+-OUTPUTS PTX
+@22
+[color] 1
+testbech.PTX_COND.PARSER1_COND.data2send[7:0]
+@28
+[color] 7
+testbech.data_out
+[color] 5
+testbech.PROB.data_out_synt
+[pattern_trace] 1
+[pattern_trace] 0

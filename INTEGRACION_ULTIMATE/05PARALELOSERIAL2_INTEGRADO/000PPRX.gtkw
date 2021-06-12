@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May 29 09:33:42 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/05PARALELOSERIAL2_INTEGRADO/000pprx.vcd"
+[dumpfile_mtime] "Sat May 29 09:20:08 2021"
+[dumpfile_size] 548848
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/05PARALELOSERIAL2_INTEGRADO/000PPRX.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 97 110
+*-7.049849 131 192 256 272 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.PPRX_COND.
+[sst_width] 233
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-INPUTS PARSER2
+@28
+testbech.PROB.clk_4f
+testbech.PROB.clk_32f
+testbech.PPRX_COND.PARSER2_COND.reset_s
+[color] 4
+testbech.PPRX_COND.PARSER2_COND.active
+[color] 4
+testbech.PPRX_SYNT.PARSER2_COND.active_synt
+@200
+-OUTPUTS PARSER2
+@29
+[color] 7
+testbech.PROB.inserter
+@28
+[color] 5
+testbech.PROB.inserter_synt
+[pattern_trace] 1
+[pattern_trace] 0

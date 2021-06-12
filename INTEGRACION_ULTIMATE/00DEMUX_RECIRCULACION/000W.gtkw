@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri May 28 08:45:33 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/DEMUX_RECIRCULACION/000W.vcd"
+[dumpfile_mtime] "Fri May 28 08:44:15 2021"
+[dumpfile_size] 75937
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/DEMUX_RECIRCULACION/000W.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-5.923430 128 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[sst_width] 233
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-OUTPUTS PROBADOR
+@28
+testbech.PROB.clk_4f
+testbech.PROB.clk_2f
+testbech.PROB.clk_f
+testbech.PROB.reset
+testbech.PROB.IDLE_OUT
+@22
+testbech.PROB.data_0p[7:0]
+testbech.PROB.data_1p[7:0]
+testbech.PROB.data_2p[7:0]
+testbech.PROB.data_3p[7:0]
+@28
+testbech.PROB.valid_0p
+testbech.PROB.valid_1p
+testbech.PROB.valid_2p
+testbech.PROB.valid_3p
+@200
+-OUTPUTS W
+@22
+[color] 7
+testbech.W_COND.data_0[7:0]
+[color] 7
+testbech.W_COND.data_1[7:0]
+@23
+[color] 7
+testbech.W_COND.data_2[7:0]
+@22
+[color] 7
+testbech.W_COND.data_3[7:0]
+@28
+[color] 7
+testbech.W_COND.valid_0
+[color] 7
+testbech.W_COND.valid_1
+[color] 7
+testbech.W_COND.valid_2
+[color] 7
+testbech.W_COND.valid_3
+@c00022
+[color] 5
+testbech.W_SYNT.data_0_synt[7:0]
+@28
+(0)testbech.W_SYNT.data_0_synt[7:0]
+(1)testbech.W_SYNT.data_0_synt[7:0]
+(2)testbech.W_SYNT.data_0_synt[7:0]
+(3)testbech.W_SYNT.data_0_synt[7:0]
+(4)testbech.W_SYNT.data_0_synt[7:0]
+(5)testbech.W_SYNT.data_0_synt[7:0]
+(6)testbech.W_SYNT.data_0_synt[7:0]
+(7)testbech.W_SYNT.data_0_synt[7:0]
+@1401200
+-group_end
+@22
+[color] 5
+testbech.W_SYNT.data_1_synt[7:0]
+[color] 5
+testbech.W_SYNT.data_2_synt[7:0]
+[color] 5
+testbech.W_SYNT.data_3_synt[7:0]
+@28
+[color] 5
+testbech.W_SYNT.valid_0_synt
+[color] 5
+testbech.W_SYNT.valid_1_synt
+[color] 5
+testbech.W_SYNT.valid_2_synt
+[color] 5
+testbech.W_SYNT.valid_3_synt
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,44 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun May 30 04:49:39 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/07DEMUXL1_INTEGRADO/000qqtx.vcd"
+[dumpfile_mtime] "Sun May 30 04:29:48 2021"
+[dumpfile_size] 844999
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/07DEMUXL1_INTEGRADO/000QQTX.gtkw"
+[timestart] 283
+[size] 1000 600
+[pos] -1 -1
+*-7.069886 384 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[treeopen] testbech.QQTX_COND.
+[sst_width] 233
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 222
+@29
+testbech.PROB.clk_2f
+@28
+testbech.PROB.clk_4f
+testbech.PROB.reset
+@22
+testbech.QQTX_COND.data_rx000[7:0]
+@28
+testbech.QQTX_COND.valid_rx000
+@200
+-666
+@22
+testbech.PROB.data_rx00[7:0]
+testbech.PROB.data_rx11[7:0]
+@28
+testbech.PROB.valid_rx00
+testbech.PROB.valid_rx11
+@22
+testbech.PROB.data_rx00_synt[7:0]
+testbech.PROB.data_rx11_synt[7:0]
+@28
+testbech.PROB.valid_rx00_synt
+testbech.PROB.valid_rx11_synt
+testbech.QQTX_COND.DEMUXL2_COND.reset_s
+[pattern_trace] 1
+[pattern_trace] 0

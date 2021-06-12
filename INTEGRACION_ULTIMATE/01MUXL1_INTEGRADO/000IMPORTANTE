@@ -1,0 +1,2 @@
+el futuro modulo de IDLE_OUT debe estar sincronizado al flanco alto de clk_f
+para que se comporte el sistema como se ve aqui.

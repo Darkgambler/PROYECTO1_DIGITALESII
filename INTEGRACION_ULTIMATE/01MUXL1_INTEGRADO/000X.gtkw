@@ -1,0 +1,77 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri May 28 09:34:48 2021
+[*]
+[dumpfile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/MUXL1_INTEGRADO/000X.vcd"
+[dumpfile_mtime] "Fri May 28 09:29:41 2021"
+[dumpfile_size] 134514
+[savefile] "/home/darkgambler/Documentos/ACTUALES/1.DIGITALES2/PROYECTO/MODULOS_CON_RESET/INTEGRACION_ULTIMATE/MUXL1_INTEGRADO/000X.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-4.923430 28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbech.
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@200
+-OUTPUTS PROBADOR
+@28
+testbech.PROB.clk_f
+testbech.PROB.clk_2f
+@22
+testbech.PROB.data_0p[7:0]
+testbech.PROB.data_1p[7:0]
+testbech.PROB.data_2p[7:0]
+testbech.PROB.data_3p[7:0]
+@28
+testbech.PROB.valid_0p
+testbech.PROB.valid_1p
+testbech.PROB.valid_2p
+@29
+testbech.PROB.valid_3p
+@200
+-SENAL INTERMEDIA
+@22
+[color] 2
+testbech.X_COND.data_0[7:0]
+[color] 2
+testbech.X_COND.data_1[7:0]
+[color] 2
+testbech.X_COND.data_2[7:0]
+[color] 2
+testbech.X_COND.data_3[7:0]
+@28
+[color] 2
+testbech.X_COND.valid_0
+[color] 2
+testbech.X_COND.valid_1
+[color] 2
+testbech.X_COND.valid_2
+[color] 2
+testbech.X_COND.valid_3
+@200
+-OUTPUTS X
+@22
+[color] 7
+testbech.PROB.data_00[7:0]
+[color] 7
+testbech.PROB.data_11[7:0]
+@28
+[color] 7
+testbech.PROB.valid_00
+[color] 7
+testbech.PROB.valid_11
+@22
+[color] 5
+testbech.PROB.data_00_synt[7:0]
+[color] 5
+testbech.PROB.data_11_synt[7:0]
+@28
+[color] 5
+testbech.PROB.valid_00_synt
+[color] 5
+testbech.PROB.valid_11_synt
+[pattern_trace] 1
+[pattern_trace] 0
