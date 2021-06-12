@@ -1,0 +1,82 @@
+\section{Bit\'acora}
+
+El proyecto se inici\'o de manera individual por la incapacidad de encontrar otro integrante, por lo que la programaci\'on de los modulos de recirculaci\'on, muxes, demuxes y el plan de trabajo fueron realizados antes de que se formara el equipo. Luego cuando se consigui\'o a un integrante para formar el equipo de trabajo \'este manifest\'o que debido a problemas de salud no estaba al d\'ia con la materia del curso, por lo que a mitad de semana se tom\'o la decisi\'on de que el primer integrante seguir\'ia con todo lo referente a la programaci\'on de los m\'odulos restantes y la integraci\'on, mientras que el nuevo integrante se encargar\'ia del reporte y la presentaci\'on final del proyecto.
+
+
+
+\begin{table}[!hbt]
+\centering
+\caption{Detalle de la primera entrega de m\'odulos}
+\label{tabla:primeraentrega}
+\begin{tabular}{|c|c|c|c|m{5cm}|}
+\hline 
+Etapa/Tarea & Nombre & Tiempo & Entrega & Comentario \\ 
+\hline 
+Muxes/Demuxes & recirculacion.v & 3.5 horas & 25/05/21 & El m\'odulo era sencillo, lo complicado fue programar el probador que hiciera lo esperado, o sea volver a repetir la salida cuando el m\'odulo retornaba la entrada.\\
+\hline 
+Muxes/Demuxes & mux4x2\_8bits.v & 1.5 horas & 25/05/21 & El m\'odulo convierte la entrada de 4 l\'ineas de 8 bits + valid a 2 l\'ineas de 8 bits + valid.\\
+\hline 
+Muxes/Demuxes & mux2x1\_8bits.v & 1.0 horas & 25/05/21 & El m\'odulo convierte la entrada de 2 l\'ineas de 8 bits + valid a una l\'ineas de 8 bits + valid.\\
+\hline 
+Muxes/Demuxes & demux1x2\_8bits.v & 2.5 horas & 25/05/21 & El m\'odulo convierte la entrada de una l\'ineas de 8 bits + valid a dos l\'ineas de 8 bits + valid. Por la funcionalidad fue m\'as complicado de realizar que los muxes.\\
+\hline 
+Muxes/Demuxes & demux2x4\_8bits.v & 3.0 horas & 25/05/21 & El m\'odulo convierte la entrada de 2 l\'ineas de 8 bits + valid a 4 l\'ineas de 8 bits + valid. Por la funcionalidad fue m\'as complicado de realizar que los muxes\\
+\hline 
+\end{tabular} 
+\end{table}
+
+
+
+\begin{table}[!hbt]
+\centering
+\caption{Detalle de la segunda entrega de m\'odulos}
+\label{tabla:segundaentrega}
+\begin{tabular}{|c|c|c|c|m{5cm}|}
+\hline 
+Etapa/Tarea & Nombre & Tiempo & Entrega & Comentario \\ 
+\hline 
+Paralelo/Serial & paralelo\_serial1.v & 3.5 horas & 01/06/21 & El m\'odulo convierte la entrada que viene del mux2x1\_8bits.v a una salida serial con la frecuencia m\'axima.\\
+\hline 
+Paralelo/Serial & paralelo\_serial2.v & 2.5 horas & 01/06/21 & El m\'odulo se encarga de enviar los COM e IDL al serial\_paralelo2.v del m\'odulo transmisor.\\
+\hline 
+Paralelo/Serial & serial\_paralelo1.v & 4.0 horas & 01/06/21 & El m\'odulo se encarga de convertir la entrada serie que viene del paralelo serial 1 en una señal de 8bits + valid, cuenta los COM y se activa según las especificaciones.\\
+\hline 
+Paralelo/Serial & serial\_paralelo2.v & 2.0 horas & 01/06/21 & El m\'odulo recibe los COM e IDL enviados por el paralelo serial 2 y cumple la importante función de enviar el IDLE\_OUT hacia el m\'odulo de recirculaci\'on.\\
+\hline 
+\end{tabular} 
+\end{table}
+
+
+\begin{table}[!hbt]
+\centering
+\caption{Detalle de la tercera entrega de m\'odulos}
+\label{tabla:terceraentrega}
+\begin{tabular}{|c|c|c|c|m{5cm}|}
+\hline 
+Etapa/Tarea & Nombre & Tiempo & Entrega & Comentario \\ 
+\hline 
+PHY TX & phy\_tx.v & 1.5 horas & 08/06/21 & m\'odulo de transmisi\'on integrado, llev\'o poco tiempo debido a que el trabajo grueso se realiz\'o como parte de las pruebas de integraci\'on seg\'un el plan de trabajo.\\
+\hline 
+PHY RX & phy\_rx.v & 1.5 horas & 08/06/21 & m\'odulo de recepci\'on integrado, llev\'o poco tiempo debido a que el trabajo grueso se realiz\'o como parte de las pruebas de integraci\'on seg\'un el plan de trabajo.\\
+\hline 
+PHY & phy.v & 2.5 horas & 08/06/21 & m\'odulo final, llev\'o poco tiempo debido a que el trabajo grueso se realiz\'o como parte de las pruebas de integraci\'on seg\'un el plan de trabajo.\\
+\hline 
+\end{tabular} 
+\end{table}
+
+\begin{table}[!hbt]
+\centering
+\caption{Detalle del trabajo extra realizado}
+\label{tabla:trabajoextra}
+\begin{tabular}{|c|c|c|c|m{5cm}|}
+\hline 
+Etapa/Tarea & Nombre & Tiempo & Entrega & Comentario \\ 
+\hline 
+Auxiliar & script bash & 3 horas & no aplica & Se cre\'o un script para mejorar la integraci\'on de los m\'odulos para cumplir con lo esperado en el plan de trabajo, el script es sencillo pero el tiempo consumido fue en su mayor\'ia debido a su diseño funcional, pruebas y correcciones.\\ 
+\hline 
+Auxiliar & idletemporal.v & 0.5 horas & no aplica & Se creó un modulo auxiliar que sustituyó tempranamente al m\'odulo que enviaba la señal de IDLE\_OUT que entra al m\'odulo de recirculaci\'on \\ 
+\hline 
+Auxiliar & integraciones & 15.0 horas & no aplica & Para cumplir el plan de trabajo se integraron desde el principio los módulos para garantizar su funcionalidad, esto aument\'o mucho el tiempo de trabajo inicial pero a cambio garantiz\'o la funcionalidad del sistema y aceler\'o la integraci\'on de los entregables finales.\\ 
+\hline 
+\end{tabular} 
+\end{table}
