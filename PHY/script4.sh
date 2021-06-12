@@ -26,7 +26,7 @@ function listaOutputs() {
 
 
 ##### PRIMERO CAMBIAMOS LOS QUE TIENEN MAS LETRAS Y SON INTERMEDIOS
-modulo="etapaflops1 recirculacion mux2x1_8bits paralelo_serial1 serial_paralelo1 paralelo_serial2 serial_paralelo2 mux4x2_8bits etapaflops3 demux1x2_8bits demux2x4_8bits  phy_rx phy_tx"
+modulo="etapaflops1 recirculacion mux2x1_8bits paralelo_serial1 serial_paralelo1 paralelo_serial2 serial_paralelo2 mux4x2_8bits etapaflops3 demux1x2_8bits demux2x4_8bits phy_rx phy_tx"
 probador="probador"
 moduloproblematico="etapaflops2"
 
